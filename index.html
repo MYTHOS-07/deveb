@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Blob</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body>
+    <div id="cursor" class="fixed w-5 h-5 bg-black rounded-full flex items-center justify-center pointer-events-none z-[9]"></div>
+    <div class="overflow-x-hidden">
+      <div class="w-full font-['Helvetica_Now_Display',sans-serif]">
+        <nav
+          class="fixed top-0 left-0 w-full py-6 px-32 bg-white bg-opacity-70 flex items-center justify-between shadow-xl font-['Helvetica_Now_Display',sans-serif] z-[1]"
+        >
+          <div class="text-xl tracking-tight">deveb.co</div>
+          <div class="flex justify-between items-center gap-10">
+            <a href="#" class="hover:text-pink-600 transition text-sm">Home</a>
+            <a href="#" class="hover:text-pink-600 transition text-sm">About</a>
+            <a href="#" class="hover:text-pink-600 transition text-sm"
+              >Services</a
+            >
+            <a href="#" class="hover:text-pink-600 transition text-sm"
+              >Contact</a
+            >
+          </div>
+        </nav>
+        <div class="landing w-full h-[200vh]">
+          <div class="w-full h-screen sticky top-0 left-0">
+            <h1
+              class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 whitespace-nowrap text-8xl font-bold tracking-tighter"
+            >
+              <span class="text-pink-600">Design</span>
+              <span class="text-gray-800">.</span>
+              <span class="text-indigo-600">Develop</span>
+              <span class="text-gray-800">.</span>
+              <span class="text-blue-500">Deploy</span>
+            </h1>
+
+            <p
+              class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 opacity-0 pointer-events-none text-2xl text-center tracking-tight leading-loose"
+            >
+              Hello, I’m Punit, a passionate full-stack developer who enjoys
+              building clean, functional, and user-friendly web applications. I
+              love learning new technologies and turning ideas into real
+              projects.
+            </p>
+
+            <canvas class="pointer-events-none z-[-1]" id="canvas"></canvas>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="w-full h-screen bg-white"></div>
+    <script type="module" src="/src/main.js"></script>
+  </body>
+</html>
