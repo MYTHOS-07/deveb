@@ -1,4 +1,4 @@
-# deveb.co - Three.js Shader Landing Hero
+# deveb.co - Three.js Shader
 
 Overview
 This project is a Vite-powered landing page that blends Three.js, custom GLSL shaders, and GSAP scroll animations. A shader-driven blob sits behind the hero text, morphs over time, and transitions color on scroll. A simple custom cursor follows the mouse for added polish.
